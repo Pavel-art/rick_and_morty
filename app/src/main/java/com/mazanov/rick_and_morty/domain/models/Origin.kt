@@ -1,0 +1,1 @@
+package com.mazanov.rick_and_morty.domain.modelsdata class Origin(    val name: String,    val url: String)

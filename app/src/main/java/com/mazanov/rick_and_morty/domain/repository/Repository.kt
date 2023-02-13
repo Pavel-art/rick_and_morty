@@ -1,0 +1,1 @@
+package com.mazanov.rick_and_morty.domain.repositoryimport com.mazanov.rick_and_morty.domain.models.PersonModelinterface Repository {    suspend fun getAllCharacters(page:Int): List<PersonModel>}

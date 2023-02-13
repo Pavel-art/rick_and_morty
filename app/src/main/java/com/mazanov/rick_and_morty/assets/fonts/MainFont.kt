@@ -1,0 +1,1 @@
+package com.mazanov.rick_and_morty.assets.fontsimport androidx.compose.ui.text.font.Fontimport androidx.compose.ui.text.font.FontFamilyimport com.mazanov.rick_and_morty.Rval mainFont = FontFamily(Font(R.font.fredoka_one_regular))
