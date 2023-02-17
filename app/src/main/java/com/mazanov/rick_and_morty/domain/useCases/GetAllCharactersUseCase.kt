@@ -1,1 +1,1 @@
-package com.mazanov.rick_and_morty.domain.useCasesimport com.mazanov.rick_and_morty.domain.repository.Repositoryclass GetAllCharactersUseCase(private val repository: Repository) {      suspend operator fun invoke(page:Int) = repository.getAllCharacters(page)}
+package com.mazanov.rick_and_morty.domain.useCasesimport com.mazanov.rick_and_morty.domain.repository.Repositoryimport javax.inject.Injectclass GetAllCharactersUseCase @Inject constructor(private val repository: Repository) {    suspend operator fun invoke(page: Int) = repository.getAllCharacters(page)}

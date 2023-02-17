@@ -2,8 +2,10 @@ package com.mazanov.rick_and_morty.presentation.theme
 
 import androidx.compose.ui.graphics.Color
 
-val Purple200 = Color(0xFFBB86FC)
-val Purple500 = Color(0xFF6200EE)
-val Purple700 = Color(0xFF3700B3)
-val Teal200 = Color(0xFF03DAC5)
-val Title = Color(0xff62849E)
+
+val AppBarColor = Color(0xff1C1D1F)
+val MainBackgroundColor = Color(0xff1C1D1F)
+val PersonBackgroundColor = Color(0xff242632)
+val CardColor = Color(0xff3C3E44)
+val TitleColor = Color(0xff62849E)
+
