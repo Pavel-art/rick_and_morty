@@ -1,0 +1,1 @@
+package com.mazanov.rick_and_morty.presentationimport android.app.Applicationimport dagger.hilt.android.HiltAndroidApp@HiltAndroidAppclass MyApplication : Application()
