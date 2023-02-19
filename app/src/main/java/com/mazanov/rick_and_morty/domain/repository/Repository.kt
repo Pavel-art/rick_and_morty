@@ -1,1 +1,1 @@
-package com.mazanov.rick_and_morty.domain.repositoryimport com.mazanov.rick_and_morty.domain.models.PersonModelinterface Repository {    suspend fun getAllCharacters(page: Int): List<PersonModel>}
+package com.mazanov.rick_and_morty.domain.repositoryimport com.mazanov.rick_and_morty.domain.models.PersonModelimport kotlinx.coroutines.flow.Flowinterface Repository {      fun getAllCharacters(page: Int): Flow<List<PersonModel>>}
