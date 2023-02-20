@@ -19,12 +19,18 @@ private val DarkColorPalette = darkColors(
 
 @SuppressLint("ConflictingOnColor")
 private val LightColorPalette = lightColors(
-    primary = Color.Black,
+    primary = Color.White,
     secondary = TitleColor,
-    background = Color.LightGray,
-    surface = CardColor.copy(alpha = 0.2f),
-    onPrimary = Color.White,
+    background = PersonBackgroundColor,
+    surface = AppBarColor,
+    onPrimary = CardColor,
 )
+
+//primary = Color.Black,
+//secondary = TitleColor,
+//background = Color.LightGray,
+//surface = CardColor.copy(alpha = 0.2f),
+//onPrimary = Color.White,
 
 @Composable
 fun Rick_and_mortyTheme(
