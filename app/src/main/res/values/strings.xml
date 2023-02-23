@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">rick_and_morty</string>
+    <string name="navigation_item_home">Home</string>
+    <string name="navigation_item_favorite">Favourite</string>
+    <string name="decription_navigation_icon">navigation item</string>
+    <string name="title_app_bar">Character</string>
 </resources>
