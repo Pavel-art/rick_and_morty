@@ -1,0 +1,1 @@
+package com.mazanov.rick_and_morty.domain.useCasesimport com.mazanov.rick_and_morty.domain.repository.Repositoryimport javax.inject.Injectclass GetAllPersonsFromDatabaseUseCase @Inject constructor( private val repository: Repository){    suspend operator fun invoke() = repository.getAllPersonsFromDatabase()}

@@ -1,0 +1,1 @@
+package com.mazanov.rick_and_morty.data.local_data_source.entitysdata class ResultFromEntity(    val personList: List<PersonModelEntity>)
